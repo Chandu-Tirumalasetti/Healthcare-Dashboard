@@ -1,0 +1,23 @@
+/* src/styles/components/ActivityFeed.css */
+.activity-feed {
+  /* background: white; */
+  background: rgb(215, 207, 207);
+  padding: 1rem;
+  border-radius: 16px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  flex: 1;
+  min-width: 450px;
+  height: 250px;
+}
+
+.activity-feed h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.activity-feed p {
+  color: #888;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+  display: flex;
+}

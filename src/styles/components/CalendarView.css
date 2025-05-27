@@ -1,0 +1,45 @@
+.calendar-view {
+    flex: 1;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 45vw;
+  height: 150px;
+  }
+  
+  .calendar-card {
+    /* display: flex;
+  flex-direction: column; */
+  gap: 16px;
+    margin: 0.5rem 0;
+    background-color: rgb(43, 43, 228);
+    border-radius: 20px;
+    color: white;
+    height: 100px;
+    width: 20vw;
+    
+  }
+  
+  .calendar-day {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-right: 1rem;
+    color: #4CAF50;
+  }
+  
+  .calendar-info h4 {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .calendar-info p {
+    margin: 0;
+    font-size: 0.875rem;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+  }
+  

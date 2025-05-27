@@ -1,0 +1,27 @@
+.anatomy-section {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100px; */
+  }
+  
+  .anatomy-img {
+    width: 50%;
+    height: 50vh;
+  }
+  
+  .heart-label{
+    font-size: 10px;
+    display: block;
+
+  }
+  .leg-label{
+    font-size: 10px;
+    display: block;
+
+  }

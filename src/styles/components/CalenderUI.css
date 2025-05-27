@@ -1,0 +1,87 @@
+.calendar {
+  font-family: 'Arial', sans-serif;
+  /* background-color: #f7f9ff; */
+  background-color: whitesmoke;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 10px;
+  height:250px;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-bottom: 20px; */
+}
+
+.calendar-header h2 {
+  font-size: 20px;
+  color: #333;
+}
+
+.calendar-nav span {
+  margin: 0 10px;
+  font-size: 18px;
+  color: #555;
+  cursor: pointer;
+}
+
+.calendar-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.calendar-column {
+  /* background-color: #f7f9ff; */
+  background-color: rgba(206, 191, 191, 0.714);
+  height: 180px;
+  text-align: center;
+  /* padding: 10px; */
+  border-radius: 12px;
+  flex: 1;
+}
+
+.highlight {
+  background-color: #e9efff;
+  box-shadow: inset 0 0 0 2px #cdd8ff;
+}
+
+.calendar-day {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.calendar-date {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.calendar-times {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.calendar-time {
+  padding: 6px 0;
+  background-color: #e0e3f7;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+.calendar-time.selected {
+  background-color: #4d4dff;
+  color: white;
+  font-weight: bold;
+}
+
+.calendar-empty {
+  color: #bbb;
+}

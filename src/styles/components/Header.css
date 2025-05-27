@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: #ffffff;
+    width: 50vw;
+    /* padding: 1rem; */
+    /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); */
+    margin-bottom: 0px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #222;
+    margin-top: 100px;
+  }
+  
+  span {
+    color: #4CAF50;
+  }
+  
+  .search-bar {
+    flex: 1;
+    margin: 0 1rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    width: 40%;
+    border: 1px solid #ddd;
+  }
+  
+  .header-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-button {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .health-font {
+           color: aqua;
+  }
+  

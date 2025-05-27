@@ -1,0 +1,34 @@
+.health-status-cards {
+    /* flex: 2; */
+   display: flex;
+  flex-direction:column;
+  gap: 16px;
+    height: 10px;
+    width: 200px;
+    margin-top: 0px;
+  }
+  
+  .health-card {
+    /* flex: 1; */
+    padding: 1rem;
+    border-radius: 10px;
+    /* background-color: #ffffff; */
+    background-color:rgba(206, 191, 191, 0.714);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .health-card.critical {
+    border-left: 5px solid red;
+  }
+  
+  .health-card.healthy {
+    border-left: 5px solid green;
+  }
+  
+  .status-indicator {
+    font-weight: bold;
+    display: block;
+    margin-top: 0.5rem;
+  }
+  

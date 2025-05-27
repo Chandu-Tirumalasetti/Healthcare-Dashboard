@@ -1,0 +1,38 @@
+.upcoming-schedule {
+    flex: 1;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .schedule-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* margin: 0.5rem 0; */
+    border: 1px solid yellow;
+    border-radius: 10px;
+    background-color: rgb(192, 184, 184);
+    width: 30vh;
+    gap: 10px;
+    font-size: 10px;
+  }
+  
+  .schedule-item .icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+
+.icon {
+  font-size: 24px;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  /* line-height: 32px; */
+}
+
+  
